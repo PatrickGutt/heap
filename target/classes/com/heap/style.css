@@ -1,0 +1,82 @@
+* {
+    -fx-accent: #209cff;
+    -fx-focus-color: #209cff;
+    -fx-control-inner-background: #d0cfdb;
+    -fx-inner-border: #2b2a33;
+    -fx-selection-bar-non-focused: #a3a2ad;
+    -fx-selection-bar: #209cff;
+    -fx-body-color: #2b2a33;
+}
+
+.root {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-font-family: "Lucida Console";
+}
+
+#title-bar {
+    -fx-background-color: #2b2a33;
+}
+
+#window-pane {
+    -fx-background-color: linear-gradient(from 0% 0% to 50% 200%, #425774 0%, #403e57 60%);
+
+}
+
+#close-btn:hover {
+    -fx-background-color: #9c1c21;
+}
+
+.window-btn:hover {
+    -fx-background-color: #37363d;
+}
+
+.window-btn-icon {
+    -fx-background-color: #d0cfdb;
+}
+
+.window-btn {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+.label {
+    -fx-text-fill: #d0cfdb;
+}
+
+#valid-label {
+    -fx-padding: 32 0 12 0;
+}
+#result {
+    -fx-padding: 12 0 32 0;
+
+}
+#app-icon {
+    -fx-background-color: linear-gradient(to top, #209cff 0%, #00ecbc 100%);
+}
+
+#app-title {
+    -fx-label-padding: 3 0 0 8;
+}
+
+#window-title {
+    -fx-padding: 6;
+}
+
+.text-field {
+    -fx-text-fill: #d0cfdb;
+    -fx-background-color: #2b2a33;
+    -fx-background-radius: 0;
+}
+
+#go {
+    -fx-background-color: #d0cfdb;
+    -fx-background-radius: 0;
+}
+
+#go:hover {
+    -fx-background-color: #bebdc9;
+
+}
